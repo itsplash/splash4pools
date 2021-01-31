@@ -1,0 +1,40 @@
+img {
+    vertical-align: middle;
+    height: 3em;
+    width: 8em;
+    cursor: pointer;
+}
+
+h2 {
+    vertical-align: middle;
+}
+
+.fill-in {
+    flex: 1 1 auto;
+  }
+
+  h3 {
+      font-size: 0.6em;
+      margin-left: 4em;
+  }
+
+  .footer {
+    bottom: 0;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .jobberlink {
+    color:#505659 !important;
+    line-height: 1.1em;
+    font-size: 0.9em !important;
+    color: #505659 !important;
+    letter-spacing: .5px;
+    font-family: "ff-tisa-web-pro", serif !important;
+    font-variant: small-caps !important;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-top: 1em;
+  }

@@ -1,0 +1,96 @@
+h1 {
+    font-size: 1.20em;
+    font-weight: normal !important;
+    text-align: center;
+    color: #505659 !important;
+    margin-bottom: 15px;
+    font-family: "brandon-grotesque",sans-serif !important;
+}
+h2 {
+    line-height: 1.8em;
+    font-size: 1.0em;
+    text-align: center;
+    color: #505659 !important;
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+    font-family: "ff-tisa-web-pro", serif !important;
+}
+
+h3 {
+    line-height: 1.8em;
+    font-size: 1.0em;
+    text-align: center;
+    color: #505659 !important;
+    font-family: "brandon-grotesque",sans-serif !important;
+    font-weight: normal !important;
+}
+
+.container {
+    position: relative;
+  }
+
+  img { 
+    width: 100%;
+    height: 20em;
+  }
+
+.mission {
+    line-height: 2.0em;
+    font-weight: bold;
+      font-size: 2.0em;
+      color: #505659 !important;
+      letter-spacing: .5px;
+      font-family: "ff-tisa-web-pro", serif !important;
+      font-variant: small-caps;
+  }
+  
+  .missiondesc {
+    line-height: 1.8em;
+    font-size: 1.4em;
+    color: #505659 !important;
+    letter-spacing: .5px;
+    font-family: "ff-tisa-web-pro", serif !important;
+    font-variant: small-caps;
+  }
+
+  .setsapart {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2.0em;
+    font-weight: bold;
+      font-size: 2.0em;
+      color: #2a2b2c !important;
+      letter-spacing: .5px;
+      font-family: "ff-tisa-web-pro", serif !important;
+      font-variant: small-caps;
+  }
+  
+  .benefits {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.8em;
+    font-size: 1.4em;
+      color: #2a2b2c !important;
+      letter-spacing: .5px;
+      font-family: "ff-tisa-web-pro", serif !important;
+      font-variant: small-caps;
+      margin-bottom: 3em;
+  }
+
+  .droplet {
+    display: inline-block;
+    height: 1.4em;
+    width: 1.0em;
+    vertical-align: middle;
+  
+  }
+
+  .waterback { 
+    width: 100%;
+    height: 30em;
+    opacity: 0.7;
+  }

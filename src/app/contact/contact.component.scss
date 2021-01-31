@@ -1,0 +1,40 @@
+.container {
+      //background-color: rgb(252, 252, 252);
+      background-color: rgb(235, 255, 255);
+  }
+
+  .contactform {
+    line-height: 2.0em;
+      font-size: 2.0em;
+      color: #2a2b2c !important;
+      letter-spacing: .5px;
+      font-family: "ff-tisa-web-pro", serif !important;
+      font-variant: small-caps;
+  }
+
+  .contactdesc {
+    line-height: 1.8em;
+    font-size: 1.4em;
+    color: #2a2b2c !important;
+    letter-spacing: .5px;
+    font-family: "ff-tisa-web-pro", serif !important;
+    font-variant: small-caps;
+  }
+
+  button {
+    color:#505659 !important;
+    background-color: rgb(214, 214, 214);
+    line-height: 3.0em;
+    border-radius: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em !important;
+    letter-spacing: .5px;
+    font-family: "ff-tisa-web-pro", serif !important;
+    font-variant: small-caps;
+    margin-bottom: 2em;
+  }
+
+    .mat-form-field-label {
+        color: red;
+    }
