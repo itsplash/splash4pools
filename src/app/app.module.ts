@@ -16,10 +16,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatListModule} from '@angular/material/list';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatListModule } from '@angular/material/list';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatMenuModule} from '@angular/material/menu';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { ReactiveFormsModule } from '@angular/forms';
+import { EmailService } from './_services/email.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,9 +47,13 @@ import { MatMenuModule} from '@angular/material/menu';
     MatFormFieldModule,
     MatListModule,
     MatSliderModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCheckboxModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    EmailService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

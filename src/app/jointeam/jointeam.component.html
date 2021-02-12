@@ -15,23 +15,33 @@
 <div class="contactdesc">
     <br>complete the form below & we will contact you about joining team splash.
 </div>
-<br><mat-form-field appearance="outline">
-  <input matInput placeholder="Name">
-</mat-form-field>
-<br><mat-form-field appearance="outline">
-  <input matInput placeholder="Service Area">
-</mat-form-field>
-<br><mat-form-field appearance="outline">
-  <input matInput placeholder="Email">
-</mat-form-field>
-<br><mat-form-field appearance="outline">
-    <input matInput placeholder="Phone Number">
-</mat-form-field>
-<br><mat-form-field appearance="outline">
-    <input matInput placeholder="Are you a CPO?">
-</mat-form-field>
 <br>
-<button mat-button routerLink="/">send</button>
-<br>
-
+<form [formGroup]="joinForm" (ngSubmit)="submitForm()">
+  <mat-form-field appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput type="text" formControlName="name">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Service Area</mat-label>
+    <input matInput formControlName="serviceArea">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+    <input matInput type="email" formControlName="email">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Phone Number</mat-label>
+      <input 
+        matInput type="text"
+        placeholder="Include Area Code"
+        formControlName="phone"
+        pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+        >
+  </mat-form-field>
+  <mat-checkbox formControlName="isCPO" [checked]="joinForm.value.isCPO">Check If you are a CPO.</mat-checkbox>
+  <br>
+  <button mat-button class="submit-button" [disabled]="!joinForm.valid" type="submit">send</button>
+</form>
+<div *ngIf="showSuccess" class="follow-up-message success">Success! Inquiry Sent!</div>
+<div *ngIf="showError" class="follow-up-message error">Error! Please try again.</div>
 </div>
