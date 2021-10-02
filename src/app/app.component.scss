@@ -37,4 +37,18 @@ h2 {
     vertical-align: middle;
     overflow: hidden;
     margin-top: 1em;
+    color: #ffffff99;
+  }
+
+  .toolbar-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .water-gif {
+    background-image: url("../assets/img/waterwaves.gif");
+    background-repeat: repeat-y;
+    background-size: contain;
   }

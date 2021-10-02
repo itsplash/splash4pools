@@ -1,40 +1,42 @@
-<div align="center">
+<div align="center" class="water-gif">
   <div class="container">
-    <mat-toolbar color=#ffffff>  
-  <h1>  
-  <img src="assets/img/color on transparent-01.svg" alt="Splash4Pools Logo" (click)="onClick()">  
-  </h1>  
-  <button mat-button routerLink="/">home</button>  
-  <button mat-button routerLink="/services">services</button>
-  <button mat-button routerLink="/about">about</button>
-  <button mat-button [matMenuTriggerFor]="contact">contact</button>
-<mat-menu #contact="matMenu">
-  <a class="jobberlink" href="https://clienthub.getjobber.com/client_hubs/b3778d80-623d-4171-bbaa-2dbd4a06a82a/login/new" mat-menu-item>customers</a>
-  <button mat-menu-item routerLink="/jointeam">technicians</button>
-</mat-menu>
-  <span class="fill-in"></span>
-  <h2>
-    1-844-6SPLASH
-  </h2>
-</mat-toolbar>
-<router-outlet></router-outlet>
-<mat-toolbar color=#ffffff class="footer">
-  <h1>  
-    <img src="assets/img/color on transparent-01.svg" alt="Splash4Pools Logo" (click)="onClick()">  
-    </h1>
-    <button mat-button routerLink="/">home</button>  
-    <button mat-button routerLink="/services">services</button>
-    <button mat-button routerLink="/about">about</button>
-    <button mat-button [matMenuTriggerFor]="contact">contact</button>
-    <mat-menu #contact="matMenu">
-      <a class="jobberlink" href="https://clienthub.getjobber.com/client_hubs/b3778d80-623d-4171-bbaa-2dbd4a06a82a/login/new" mat-menu-item>customers</a>
-      <button mat-menu-item routerLink="/jointeam">technicians</button>
-    </mat-menu>
-    <button mat-button routerLink="/jointeam">join the team</button>
-    <span class="fill-in"></span>
-    <h3 class="footer-text-copyright">© 2019 Copyright:
-    <a href="https://splash4pools.com"> Splash4Pools.com</a>
-  </h3>
- </mat-toolbar>
+    <div class="toolbar-container">
+      <mat-toolbar>  
+        <h1>  
+        <img src="assets/img/color on transparent-01.svg" alt="Splash4Pools Logo" (click)="onClick()">  
+        </h1>  
+        <button mat-button routerLink="/">home</button>  
+        <button mat-button routerLink="/services">services</button>
+        <button mat-button routerLink="/about">about</button>
+        <button mat-button [matMenuTriggerFor]="contact">contact</button>
+        <mat-menu #contact="matMenu">
+          <a class="jobberlink" href="https://clienthub.getjobber.com/client_hubs/b3778d80-623d-4171-bbaa-2dbd4a06a82a/login/new" mat-menu-item>customers</a>
+          <button mat-menu-item routerLink="/jointeam">technicians</button>
+        </mat-menu>
+        <span class="fill-in"></span>
+        <h2>
+          1-844-6SPLASH
+        </h2>
+      </mat-toolbar>
+    </div>
+    <router-outlet></router-outlet>
+    <mat-toolbar class="footer">
+      <h1>  
+        <img src="assets/img/color on transparent-01.svg" alt="Splash4Pools Logo" (click)="onClick()">  
+        </h1>
+        <button mat-button routerLink="/">home</button>  
+        <button mat-button routerLink="/services">services</button>
+        <button mat-button routerLink="/about">about</button>
+        <button mat-button [matMenuTriggerFor]="contact">contact</button>
+        <mat-menu #contact="matMenu">
+          <a class="jobberlink" href="https://clienthub.getjobber.com/client_hubs/b3778d80-623d-4171-bbaa-2dbd4a06a82a/login/new" mat-menu-item>customers</a>
+          <button mat-menu-item routerLink="/jointeam">technicians</button>
+        </mat-menu>
+        <button mat-button routerLink="/jointeam">join the team</button>
+        <span class="fill-in"></span>
+        <h3 class="footer-text-copyright">© 2019 Copyright:
+        <a href="https://splash4pools.com"> Splash4Pools.com</a>
+      </h3>
+    </mat-toolbar>
  </div>
 </div>

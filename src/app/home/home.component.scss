@@ -1,73 +1,79 @@
 .container {
-    position: relative;
-  }
-  
-  .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 2.0em;
-    font-size: 2.0em;
-    color: #2a2b2c !important;
-    letter-spacing: .5px;
-    font-family: "ff-tisa-web-pro", serif !important;
-    font-variant: small-caps;
-  }
-  .titlemore {
-    font-weight: bold;
-  }
-  
-  img { 
-    //object-fit: cover;
-    width: 100%;
-    height: 40em;
-    opacity: 0.7;
-  }
-  button {
-    color:#505659 !important;
-    background: #ffffff;
-    line-height: 3.0em;
-    border-radius: 0.5em;
-    text-align: center;
-    font-weight: bold;
-    font-size: 0.8em;
-    color: #505659 !important;
-    letter-spacing: .5px;
-    font-family: "ff-tisa-web-pro", serif !important;
-    font-variant: small-caps;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: max-content;
 }
 
- .button2 {
-  line-height: 2.0em;
+.section {
+  display: block;
+  height: max-content;
+  padding: 15px;
+  border-bottom: 2px solid lightgray;
+}
+
+.pool {
+  background-image: url("../../assets/img/pool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  line-height: 2em;
+  font-size: 2em;
+  color: #2a2b2c !important;
+  letter-spacing: 0.5px;
+  font-family: "ff-tisa-web-pro", serif !important;
+  font-variant: small-caps;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+// button {
+//   line-height: 2em;
+//   border-radius: 0.5em;
+//   text-align: center;
+//   font-weight: bold;
+//   font-size: 0.8em;
+//   letter-spacing: 0.5px;
+//   font-family: "ff-tisa-web-pro", serif !important;
+//   font-variant: small-caps;
+// }
+
+.button2 {
+  // line-height: 2em;
   color: #253497 !important;
- }
+}
 
- .button3 {
-   background-color: #b7d3e1;
-   line-height: 1.4em;
-   margin-top: 2em;
-   margin-bottom: 2em;
- }
-
-.splashbutton {
-  flex: 1 1 auto;
+.button3 {
+  background-color: #b7d3e1;
+  // line-height: 1.4em;
+  // margin-top: 2em;
+  // margin-bottom: 2em;
 }
 
 .easyas {
   line-height: 2.5em;
   font-size: 2.5em;
   color: #0f6b99 !important;
-    letter-spacing: .5px;
-    font-family: "ff-tisa-web-pro", serif !important;
-    font-variant: small-caps;
+  letter-spacing: 0.5px;
+  font-family: "ff-tisa-web-pro", serif !important;
+  font-variant: small-caps;
 }
 
 .easylist {
   line-height: 2.2em;
   font-size: 1.4em;
   color: #505659 !important;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-family: "ff-tisa-web-pro", serif !important;
   font-variant: small-caps;
   margin-bottom: 1.8em;
@@ -75,52 +81,51 @@
 }
 
 .checkservices {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 2.0em;
-  font-size: 2.0em;
+  height: 75vh;
+  line-height: 2em;
+  font-size: 2em;
   color: #505659 !important;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-family: "ff-tisa-web-pro", serif !important;
   font-variant: small-caps;
 }
 
 .setsapart {
-  line-height: 2.0em;
+  line-height: 2em;
   font-weight: bold;
-    font-size: 1.6em;
-    color: #505659 !important;
-    letter-spacing: .5px;
-    font-family: "ff-tisa-web-pro", serif !important;
-    font-variant: small-caps;
+  font-size: 1.6em;
+  color: #505659 !important;
+  letter-spacing: 0.5px;
+  font-family: "ff-tisa-web-pro", serif !important;
+  font-variant: small-caps;
 }
 
 .benefits {
   line-height: 1.8em;
   font-size: 1.4em;
-    color: #505659 !important;
-    letter-spacing: .5px;
-    font-family: "ff-tisa-web-pro", serif !important;
-    font-variant: small-caps;
+  color: #505659 !important;
+  letter-spacing: 0.5px;
+  font-family: "ff-tisa-web-pro", serif !important;
+  font-variant: small-caps;
 }
 
 .callnow {
   background-color: #253497;
-  line-height: 2.0em;
-    font-size: 2.0em;
-    color: #ffffff !important;
-    letter-spacing: .5px;
-    font-family: "ff-tisa-web-pro", serif !important;
-    font-variant: small-caps;
+  line-height: 2em;
+  font-size: 2em;
+  color: #ffffff !important;
+  letter-spacing: 0.5px;
+  font-family: "ff-tisa-web-pro", serif !important;
+  font-variant: small-caps;
 }
+
 .numbers {
   line-height: 2.2em;
   font-size: 1.8em;
   color: #0f6b99 !important;
   display: inline;
 }
+
 .selectpackage {
   color: rgb(187, 10, 10);
   display: inline;
@@ -129,6 +134,10 @@
 .droplet {
   display: inline-block;
   height: 1.4em;
-  width: 1.0em;
+  width: 1em;
   vertical-align: middle;
+}
+
+.white-background {
+  background-color: white;
 }
