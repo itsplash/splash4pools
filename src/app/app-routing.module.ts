@@ -11,7 +11,8 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'jointeam', component: JointeamComponent }
+  { path: 'jointeam', component: JointeamComponent },
+  { path: '**', redirectTo: ''}
 ];
 
 @NgModule({
